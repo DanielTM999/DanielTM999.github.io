@@ -1,4 +1,4 @@
-// Função para animar a digitação do texto
+
 function typeWriter(textElement, delay) {
     const text = textElement.innerHTML;
     textElement.innerHTML = '';
@@ -37,4 +37,9 @@ navLinks.forEach(link => {
         const target = event.target.getAttribute('href');
         smoothScroll(target);
     });
+});
+
+const navigate = document.getElementById('navigate');
+navigate.addEventListener("click", (e) => {
+    window.location.href ="/src/RoadMap.html"
 });
