@@ -39,7 +39,7 @@ navLinks.forEach(link => {
     });
 });
 
-const navigate = document.getElementById('navigate');
-navigate.addEventListener("click", (e) => {
-    window.location.href ="/src/RoadMap.html"
+
+document.getElementById('navigate').addEventListener("click", (e) => {
+    window.location.href ="https://danieltm999.github.io/src/RoadMap.html"
 });
