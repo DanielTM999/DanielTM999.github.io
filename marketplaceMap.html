@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const mapJson = {
+            plugginsMap: {
+                id: "#teste",
+                name: "teste",
+                version: 1.0,
+                plugginDowloadPath: "wbdcjiwcd.com"
+            }
+        };
+
+        function mostrarJson(){
+            document.contentType = "application/json";
+            const jsonString = JSON.stringify(mapJson, null, 4);
+            document.getElementById("jsonContainer").textContent = jsonString;
+            
+        }
+        
+        window.onload = mostrarJson;
+    </script>
+    <pre id="jsonContainer"></pre> 
+</body>
+</html>
