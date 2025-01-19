@@ -1,8 +1,10 @@
 {
-    "plugginsMap": {
-        "id": "#teste",
-        "name": "teste",
-        "version": 1.0,
-        "plugginDowloadPath": "https://github.com/DanielTM999/DanielTM999.github.io/blob/main/plugins/plugin-1.0.0.jar?raw=true"
-    }
+    "plugginsMap": [
+        {
+            "id": "#teste",
+            "name": "teste",
+            "version": 1.0,
+            "plugginDowloadPath": "https://github.com/DanielTM999/DanielTM999.github.io/blob/main/plugins/plugin-1.0.0.jar?raw=true"
+        }
+    ]
 }
