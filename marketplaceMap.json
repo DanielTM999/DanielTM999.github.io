@@ -5,6 +5,12 @@
             "name": "connection_history",
             "version": 1.0,
             "plugginDowloadPath": "https://github.com/DanielTM999/DanielTM999.github.io/blob/main/plugins/connection_history-1.0.0.jar?raw=true"
+        },
+        {
+            "id": "#PgForDataForge",
+            "name": "PgForDataForge",
+            "version": 1.0,
+            "plugginDowloadPath": "https://github.com/DanielTM999/DanielTM999.github.io/blob/main/plugins/pg_dataforge-1.0.0.jar?raw=true"
         }
     ]
 }
